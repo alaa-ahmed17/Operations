@@ -2,7 +2,6 @@
 import operations.Operations;
 import java.util.HashMap;
 import java.util.LinkedList;
-import java.util.Scanner;
 
 import static DataEntryWithCheck.NumberList.enterData;
 import static DataEntryWithCheck.NumberList.enterOprator;
