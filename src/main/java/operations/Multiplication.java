@@ -10,11 +10,11 @@ public class Multiplication  extends Operations {
 @Override
     public float calculate(){
             result =1;
-            if (numberValues.isEmpty()){
+            if (this.getTheNumbers().isEmpty()){
                 return 0;
             }
 
-            for(float i : numberValues){
+            for(float i : this.getTheNumbers()){
                 result*=i;
             }
             return result;
