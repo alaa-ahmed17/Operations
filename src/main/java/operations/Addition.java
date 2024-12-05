@@ -10,8 +10,8 @@ public class Addition  extends Operations {
 
     @Override
     public float calculate(){
-
-        for(float i : numberValues){
+// add all number that user will enter them
+        for(float i : this.getTheNumbers()){
             result+=i;
         }
         return result;
